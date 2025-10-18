@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.form1 {
+    width: 700px;
+   margin: 10px;
+    padding: 15px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+
+.header {
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(107, 105, 105);
+    gap: 8px;
+}
+
+.list ul li {
+    line-height: 5px;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+
+}
+
+.logo1 {
+    height: 20px;
+}
+
+.second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.part1 {
+    background-color: blueviolet;
+}
+
+.part2 {
+
+    position: relative;
+
+}
+
+.bag {
+    background-size: cover;
+
+
+}
+
+.head {
+    font-size: 26px;
+    font-weight: 350;
+    line-height: 1;
+}
+
+.rank {
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+.rank1 h1 {
+    color: rgb(88, 86, 86);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rank3 p {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.btn1 {
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn2 {
+    background-color: rgb(29, 146, 224);
+    padding: 5px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.third {
+    margin-top: 10px;
+}
+
+.text2 {
+    font-size: 50px;
+    font-weight: 150;
+
+}
+
+.end1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.my-horizontal-line {
+    /* border: none; */
+    border-top: 1.4px solid #999;
+    margin: 15px 0 15px 0;
+}
+footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    gap:10px
+}
+footer .text3{
+    font-size: 15px;
+}
